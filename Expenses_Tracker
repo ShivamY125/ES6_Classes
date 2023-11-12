@@ -14,6 +14,7 @@ function main() {
   
       #calculateTotalExpenses() {
         let total = 0;
+// for-of loop is used in calculateTotalExpenses() to sum up the total of the expenses. 
         for (let expense of this.#expenses) {
           total += expense.amount;
         }
